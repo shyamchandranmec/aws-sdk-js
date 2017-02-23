@@ -1,16 +1,15 @@
 {
-  "name": "aws-sdk",
-  "description": "AWS SDK for JavaScript",
+  "name": "aws-sdk-webpack",
+  "description": "AWS SDK for JavaScript compatible with webpack",
   "version": "2.18.0",
   "author": {
-    "name": "Amazon Web Services",
+    "name": "Shyam Chandran",
     "email": "",
-    "url": "http://aws.amazon.com/"
+    "url": ""
   },
-  "homepage": "https://github.com/aws/aws-sdk-js",
+  "homepage": "https://github.com/shyamchandranmec/aws-sdk-webpack/",
   "contributors": [
-    "Loren Segal <lsegal@amazon.com>",
-    "Trevor Rowe <trevrowe@amazon.com>"
+    
   ],
   "devDependencies": {
     "@types/node": "^6.0.46",
@@ -39,11 +38,11 @@
     "crypto-browserify": "1.0.9",
     "jmespath": "0.15.0",
     "querystring": "0.2.0",
-    "sax": "1.1.5",
+    "sax": "1.2.1",
     "url": "0.10.3",
-    "uuid": "3.0.0",
-    "xml2js": "0.4.15",
-    "xmlbuilder": "2.6.2"
+    "uuid": "3.0.1",
+    "xml2js": "0.4.17",
+    "xmlbuilder": "4.2.1"
   },
   "main": "lib/aws.js",
   "browser": {
@@ -61,14 +60,14 @@
   "types": "index.d.ts",
   "typings": "index.d.ts",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aws/aws-sdk-js"
+    "url": "git://github.com/shyamchandranmec/aws-sdk-webpack"
   },
   "bugs": {
-    "url": "http://github.com/aws/aws-sdk-js/issues",
+    "url": "http://github.com/shyamchandranmec/aws-sdk-webpack/issues",
     "mail": ""
   },
   "license": "Apache-2.0",
